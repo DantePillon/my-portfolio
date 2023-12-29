@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Mono', monospace;
+  color: #faf9f5;
+  border: dashed aquamarine;
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #15191c;
+/*    background-color: #302e29;*/
+/*    background-image: url('../images/noise-2.png');*/
+  }
+
+body {
+  margin: auto;
+  width: 1000px;
+  border: dashed lightblue;
+  display: flex;
+  flex-direction: column;
+}
+
+#initial-spacer {
+  height: 500vh;
+  border: dashed aqua;
+}
+
+.title {
+  transform-origin: 9.3vw 27.7vh;
+  border: dashed red;
+  position: fixed;
+  width: inherit;
+  box-sizing: border-box;
+/*  width: 1000px;*/
+/*  object-fit: fill;*/
+/*  width: 100%;*/
+/*  height: 100%;*/
+/*  top: 0vh;*/
+/*  left: 32vw;*/
+/*  font-family: 'Roboto Mono', monospace;*/
+/*  font-weight: 900;*/
+/*  font-style: italic;*/
+/*  text-align: center;*/
+/*  font-size: 1000px;*/
+/*  color: #faf9f5;*/
+}
+  
+p, li, h2, h3  { 
+  font-family: 'Roboto Mono', monospace;
+  color: #faf9f5;
+}
+
+h2 {
+  font-size: 40px;
+  font-style: italic; 
+}
+
+p, li, form {
+  font-size: 25px;
+  /* line-height: 2; */
+  /* letter-spacing: 10px; */
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10vh 0;
+  border: dashed palevioletred;
+}
+
+.guess-the-number-container {
+  display: flex;
+  border: dashed yellow
+}
+
+form {
+  display: flex;
+}
+
+.hint-btn {
+  height: 7vh;
+}
+
+* {
+ /* border: 0 !important; */
+}
+
+
+/* <!-- HTML !-->
+<button class="button-87" role="button">Button 87</button>
+
+*/
+
+.btn {
+  margin: 10px;
+  padding: 15px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  border: 0px;
+  font-weight: 700;
+  box-shadow: 0px 0px 14px -7px #acfbff;
+  background-image: linear-gradient(45deg, #58b5ff 0%, #acfbff  51%, #58b5ff  100%);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.btn:hover {
+  background-position: right center;
+  /* change the direction of the change here  */
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn:active {
+  transform: scale(0.95);
+} 

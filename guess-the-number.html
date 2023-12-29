@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>My test page</title>
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="scripts/guess-the-number.js" defer></script>
+  </head>
+  <body>
+    <img id="guess-the-number" class="title" src="images/dantes.svg" alt="Guess the number">
+    <div id="initial-spacer"></div>
+    <section>
+      <h2>Guess the Number</h2>
+      <p>
+        When I designed this game, I really wanted to cater to people with heart disease; so as much as possible, I avoided including anything too 
+        thrilling or exciting, while still making the game to be quite challenging and difficult to beat. All in all, I'm really happy with how it
+        turned out, I'm thinking about releasing it as it's own title... maybe I could even make a sequel to please fans of the original.
+      </p>
+      <div class="container">
+        <div class="guess-the-number-container">
+            <form>
+              <label for="numbers">Take a guess:</label>
+              <select id="number-dropdown" class="btn" name="numbers" id="numbers-dropdown">
+                <option value="1">1</option>
+              </select>
+              <br><br>
+              <input class="btn" type="submit" value="Submit">
+            </form>
+        </div>
+        <button class="hint-btn btn">Hint (for losers)</button>
+      </div>
+    </section>
+  </body>
+</html>
